@@ -1,0 +1,27 @@
+
+
+.divMiniCard{
+    border: solid hsl(231, 11%, 63%) 1px;
+    border-radius: 20px;
+    padding:15px;
+    padding-right:50px;
+
+}
+
+.imgMiniCard{
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.h3MiniCard{
+    margin: 0;
+    padding-bottom: 5px;
+    color: hsl(213, 96%, 18%);
+}
+
+.pMiniCard{
+    margin: 0;
+    padding-bottom: 5px;
+    color: hsl(231, 11%, 63%);
+}
+

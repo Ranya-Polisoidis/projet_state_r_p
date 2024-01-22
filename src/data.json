@@ -1,0 +1,38 @@
+[
+    {
+        "img":"./img/arcade.svg",
+        "title": "Arcade",
+        "timeframes": {
+            "monthly": {
+                "price": 9
+            },
+            "yearly": {
+                "price": 90
+            }
+        }
+    },
+    {
+        "img":"./img/advenced.svg",
+        "title": "Advenced",
+        "timeframes": {
+            "monthly": {
+                "price": 12
+            },
+            "yearly": {
+                "price": 120
+            }
+        }
+    },
+    {
+        "img":"./img/pro.svg",
+        "title": "Pro",
+        "timeframes": {
+            "monthly": {
+                "price": 15
+            },
+            "yearly": {
+                "price": 150
+            }
+        }
+    }
+]

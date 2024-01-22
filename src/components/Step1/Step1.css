@@ -1,0 +1,57 @@
+
+
+
+.divAllStep1{
+    /* background-color: red; */
+    padding-right: 80px; 
+    padding-left: 80px;
+    padding-top: 50px;
+
+    padding-bottom: 25px;  
+}
+
+.div1AllStep1{
+
+}
+
+.h1AllStep1{
+    margin: 0;
+    color: hsl(213, 96%, 18%);
+}
+
+.pAllStep1{
+    margin: 0;
+    padding-bottom: 45px;
+    color:hsl(231, 11%, 63%);
+}
+
+
+.div2AllStep1{
+
+}
+
+.h5AllStep1{
+    margin: 0;
+    padding-bottom: 5px;
+    color: hsl(213, 96%, 18%);
+}
+
+
+.inputAllStep1{
+    font-size: 1.0vw;
+    height: 45px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px grey solid;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    outline-color: hsl(271, 39%, 59%);
+}
+
+.inputAllStep1::placeholder {
+    /* font-size: 15px;  */
+    /* padding-left: 15px; */
+}
+
+/* supp la bordure authomatique quand on clique sur l'input */
+/* outline: none; */
