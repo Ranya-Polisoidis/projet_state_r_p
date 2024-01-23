@@ -1,38 +1,85 @@
-[
-    {
-        "img":"./img/arcade.svg",
-        "title": "Arcade",
-        "timeframes": {
-            "monthly": {
-                "price": 9
-            },
-            "yearly": {
-                "price": 90
+{
+    "step1":[
+        {
+            "name":"",
+            "email":"",
+            "number":""
+        }
+    ],
+    "step2":[
+        {
+            "img":"./img/arcade.svg",
+            "title": "Arcade",
+            "timeframes": {
+                "monthly": {
+                    "price": 9
+                },
+                "yearly": {
+                    "price": 90
+                }
+            }
+        },
+        {
+            "img":"./img/advenced.svg",
+            "title": "Advenced",
+            "timeframes": {
+                "monthly": {
+                    "price": 12
+                },
+                "yearly": {
+                    "price": 120
+                }
+            }
+        },
+        {
+            "img":"./img/pro.svg",
+            "title": "Pro",
+            "timeframes": {
+                "monthly": {
+                    "price": 15
+                },
+                "yearly": {
+                    "price": 150
+                }
             }
         }
-    },
-    {
-        "img":"./img/advenced.svg",
-        "title": "Advenced",
-        "timeframes": {
-            "monthly": {
-                "price": 12
-            },
-            "yearly": {
-                "price": 120
+    ],
+    "step3":[
+        {
+            "title": "Online service",
+            "detail":"Access to multiplayer games",
+            "timeframes": {
+                "monthly": {
+                    "price": 1
+                },
+                "yearly": {
+                    "price": 10
+                }
+            }
+        },
+        {
+            "title": "Larger storage",
+            "detail":"Extra 1TB of cloud save",
+            "timeframes": {
+                "monthly": {
+                    "price": 2
+                },
+                "yearly": {
+                    "price": 20
+                }
+            }
+        },
+        {
+            "title": "Customizable Profile",
+            "detail":"Custom theme on your profile",
+            "timeframes": {
+                "monthly": {
+                    "price": 2
+                },
+                "yearly": {
+                    "price": 20
+                }
             }
         }
-    },
-    {
-        "img":"./img/pro.svg",
-        "title": "Pro",
-        "timeframes": {
-            "monthly": {
-                "price": 15
-            },
-            "yearly": {
-                "price": 150
-            }
-        }
-    }
-]
+    ]
+}

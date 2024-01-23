@@ -2,6 +2,7 @@ import React from 'react'
 import "./Step1.css"
 
 function Step1() {
+
     return (
         <div>
 

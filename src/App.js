@@ -41,6 +41,10 @@ function App() {
 // }  
 // -------------------------------------------------------
 
+  const [time, setTime] = useState("monthly")
+  const [miniCard, setMiniCard] = useState("")
+  const [input, setInput] = useState("")
+
 
   return (
     <div className="App">
@@ -52,7 +56,7 @@ function App() {
             <SideBar step1={step1} step2={step2} step3={step3} step4={step4}/>
           </div>
           <div>
-            <Step1/>
+            <Step1 data={data.step1}/>
             {/* { step1 == true && */}
             {/* <BtnNextStep setStep1={setStep1} setStep2={setStep2}/>  */}
             <div className='divBtnStep1App'>
@@ -70,7 +74,7 @@ function App() {
             <SideBar step1={step1} step2={step2} step3={step3} step4={step4}/>
           </div>
           <div>
-            <Step2 data={data}/>
+            <Step2 data={data.step2} time={time} setTime={setTime} miniCard={miniCard} setMiniCard={setMiniCard}/>
             {/* { step1 == true && */}
             <div className='divBtnStep234App'>
               <BtnGoBack/>
@@ -88,7 +92,7 @@ function App() {
             <SideBar step1={step1} step2={step2} step3={step3} step4={step4}/>
           </div>
           <div>
-            <Step3/>
+            <Step3 data={data.step3} time={time} setTime={setTime} input={input} setInput={setInput}/>
             <div className='divBtnStep234App'>
               <BtnGoBack/>
               <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou}/> 

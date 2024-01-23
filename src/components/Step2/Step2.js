@@ -8,8 +8,7 @@ import MiniCard from '../MiniCard/MiniCard'
 
 function Step2(props) {
 
-    const [time, setTime] = useState("monthly")
-
+    
     const [btnMonthlyYearly, setBtnMonthlyYearly] = useState(true)
 
 
@@ -26,7 +25,7 @@ function Step2(props) {
                 <div className='div2Step2'>
                 {
                 props.data.map((item, index) => (
-                    <MiniCard key={index} img={item.img} title={item.title} price={item.timeframes[time].price} time={time}/>
+                    <MiniCard key={index} item={item} img={item.img} title={item.title} price={item.timeframes[props.time].price} time={props.time} miniCard={props.miniCard} setMiniCard={props.setMiniCard}/>
                 ))
                 }
                 </div>
@@ -37,7 +36,7 @@ function Step2(props) {
                         <div className="divBtnMonthYear">
                             <p className="pMonth">Monthly1</p>
                         <div className="divCercle btnMonthYear">
-                            <div className="cercle" onClick={()=> {setBtnMonthlyYearly(false);setTime("yearly")}} ></div>
+                            <div className="cercle" onClick={()=> {setBtnMonthlyYearly(false);props.setTime("yearly")}} ></div>
                         </div>
                             <p className="pYear">Yearly1</p>
                         </div>
@@ -47,7 +46,7 @@ function Step2(props) {
                         <div className="divBtnMonthYear">
                             <p className="effetPMonth">Monthly2</p>
                         <div class="divCercle btnMonthYear">
-                            <div className="effetCercle" onClick={()=> {setBtnMonthlyYearly(true);setTime("monthly")}}></div>
+                            <div className="effetCercle" onClick={()=> {setBtnMonthlyYearly(true);props.setTime("monthly")}}></div>
                         </div>
                             <p className="effetPYear">Yearly2</p>
                         </div>
