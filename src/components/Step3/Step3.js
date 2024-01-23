@@ -14,10 +14,11 @@ function Step3(props) {
                     <p className='pAllStep3'>Add-ons help enhance your gaming experience.</p>
                 </div>
 
-                <div className='div2Step2'>
+                {/* <div className='div2Step3'> */}
+                <div className=''>
                 {
                 props.data.map((item, index) => (
-                    <Input key={index} item={item} title={item.title} detail={item.detail} price={item.timeframes[props.time].price} time={props.time} input={props.input} setInput={props.setInput}/>
+                    <Input key={index} item={item} fctAjoutChoix={props.fctAjoutChoix} title={item.title} detail={item.detail} price={item.timeframes[props.time].price} time={props.time} input={props.input} setInput={props.setInput}/>
                 ))
                 }
                 </div>

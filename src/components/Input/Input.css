@@ -1,7 +1,44 @@
 
-.div2Step2{
+
+.divInput{
+    border: solid hsl(231, 11%, 63%) 1px;
+    border-radius: 20px;
+    /* padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left:15px;
+    padding-right:30px;
+    width: 85px; */
+
+    cursor: pointer;
+    
+    /* transition ajouter pour le hover */
+    /* transition: border 0.3s ease; */
+
+    padding-bottom: 30px; 
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding-bottom: 30px;
+    /* justify-content: space-between; */
+
 }
+
+.divInput:hover{
+    border: 1px solid hsl(280, 65%, 48%);
+}
+
+.inputInput{
+    cursor: pointer;
+}
+
+.inputInput[type=checkbox]{
+    accent-color:hsl(280, 65%, 48%)
+}
+
+.h5Input{
+    margin: 0;
+}
+
+.h6Input{
+    margin: 0;
+
+}
+

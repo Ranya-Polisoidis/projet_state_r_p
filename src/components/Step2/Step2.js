@@ -8,7 +8,7 @@ import MiniCard from '../MiniCard/MiniCard'
 
 function Step2(props) {
 
-    
+
     const [btnMonthlyYearly, setBtnMonthlyYearly] = useState(true)
 
 
@@ -25,7 +25,7 @@ function Step2(props) {
                 <div className='div2Step2'>
                 {
                 props.data.map((item, index) => (
-                    <MiniCard key={index} item={item} img={item.img} title={item.title} price={item.timeframes[props.time].price} time={props.time} miniCard={props.miniCard} setMiniCard={props.setMiniCard}/>
+                    <MiniCard key={index} item={item} img={item.img} title={item.title} price={item.timeframes[props.time].price} time={props.time} miniCard={props.miniCard} setMiniCard={props.setMiniCard} />
                 ))
                 }
                 </div>

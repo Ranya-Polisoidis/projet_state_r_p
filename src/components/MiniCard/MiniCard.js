@@ -13,7 +13,7 @@ function MiniCard(props) {
                     <h3 className='h3MiniCard'>{props.title}</h3>
                     <p className='pMiniCard'>${props.price}/{props.time == "monthly" ? "mo" : "yr"}</p> 
                 </div>
-                
+
         </div>
         
 
