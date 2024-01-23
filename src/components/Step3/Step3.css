@@ -8,10 +8,6 @@
     width: 420px;
 }
 
-.div1AllStep3{
-
-}
-
 .h1AllStep3{
     margin: 0;
     color: hsl(213, 96%, 18%);
@@ -22,11 +18,4 @@
     margin: 0;
     padding-bottom: 45px;
     color:hsl(231, 11%, 63%);
-}
-
-.div2Step3{
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 30px; */
 }

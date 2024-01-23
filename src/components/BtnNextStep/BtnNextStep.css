@@ -3,6 +3,7 @@
 /* + mon btn Confirm (le dernier) */
 .BtnBtnNextStep{ 
     background-color: hsl(213, 96%, 18%);
+
     color: hsl(0, 0%, 100%);
     border: none;
     border-radius: 10px;

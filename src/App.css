@@ -38,6 +38,11 @@ body{
   padding-top: 90px;
 }
 
+/* modif pour le 3 */
+.divBtnStep3App{
+  padding-top: 58px; 
+}
+
 .couleur{
 color: hsl(213, 96%, 18%);
 color: hsl(243, 100%, 62%);

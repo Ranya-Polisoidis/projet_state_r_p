@@ -2,23 +2,24 @@
 
 .divInput{
     border: solid hsl(231, 11%, 63%) 1px;
-    border-radius: 20px;
-    /* padding-top: 20px;
+    border-radius: 10px;
+
+    padding-top: 15px;
     padding-bottom: 15px;
     padding-left:15px;
-    padding-right:30px;
-    width: 85px; */
+    padding-right:15px;
 
+    /* width: 400px; */
+
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
     cursor: pointer;
     
     /* transition ajouter pour le hover */
-    /* transition: border 0.3s ease; */
-
-    padding-bottom: 30px; 
-    display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
-
+    transition: border 0.3s ease;
 }
 
 .divInput:hover{
@@ -33,12 +34,45 @@
     accent-color:hsl(280, 65%, 48%)
 }
 
-.h5Input{
-    margin: 0;
+.div1Input{
+    width: 290px;
 }
 
-.h6Input{
+.h4Input{
     margin: 0;
-
+    padding-bottom: 5px;
+    color: hsl(213, 96%, 18%);
 }
 
+.p1Input{
+    margin: 0;
+    color:hsl(231, 11%, 63%);
+}
+
+.p2Input{
+    margin: 0;
+    color: hsl(280, 65%, 48%);
+    letter-spacing: 0.5px;
+}
+
+/* effet */
+.effetDivInput{
+    border: 1px solid hsl(280, 65%, 48%);
+    background-color:  hsl(225, 13%, 94%);
+
+    border-radius: 10px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left:15px;
+    padding-right:15px;
+
+    /* width: 400px; */
+
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    cursor: pointer;
+}

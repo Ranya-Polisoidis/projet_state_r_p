@@ -16,6 +16,7 @@ function BtnNextStep(props) {
             { props.step3 == true &&
                 <button className='BtnBtnNextStep' onClick={()=> {props.setStep3(false);props.setStep4(true)}}>Next Step</button>
             }
+            {/* + mon btn Confirm */}
             { props.step4 == true &&
                 <button className='BtnBtnNextStep' onClick={()=> {props.setStep4(false);props.setThankYou(true)}}>Confirm</button>
             }

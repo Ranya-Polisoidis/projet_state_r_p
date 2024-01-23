@@ -41,12 +41,13 @@ function App() {
 // }  
 // -------------------------------------------------------
 
+
   const [time, setTime] = useState("monthly")
   const [miniCard, setMiniCard] = useState("")
   const [input, setInput] = useState("")
 
-  // Pour mon step 4
-  const [choix, setChoix] = useState([])
+  // Pour mon step 4 
+  const [choix, setChoix] = useState([]) 
   const [total, setTotal] = useState(0) 
 
   // étape 3 (l'ajout des éléments dans le tableau)
@@ -60,12 +61,8 @@ function App() {
     }
   }
 
-  // modification du forfait 
-
-
   return (
     <div className="App">
-
 
       { step1 == true &&
         <div className='div1AllApp'>
@@ -94,7 +91,7 @@ function App() {
             <Step2 data={data.step2} time={time} setTime={setTime} miniCard={miniCard} setMiniCard={setMiniCard} />
             {/* { step1 == true && */}
             <div className='divBtnStep234App'>
-              <BtnGoBack/>
+              <BtnGoBack setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4}/>
               {/* <BtnNextStep setStep2={setStep2} setStep3={setStep3}/>  */}
               <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou}/> 
             </div>
@@ -110,8 +107,8 @@ function App() {
           </div>
           <div>
             <Step3 data={data.step3} time={time} setTime={setTime} input={input} setInput={setInput} choix={choix} fctAjoutChoix={fctAjoutChoix}/>
-            <div className='divBtnStep234App'>
-              <BtnGoBack/>
+            <div className='divBtnStep234App divBtnStep3App'>
+              <BtnGoBack setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4}/>
               <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou}/> 
             </div>
           </div>
@@ -126,8 +123,8 @@ function App() {
           <div>
             <Step4 choix={choix} miniCard={miniCard} time={time} total={total}/>
             <div className='divBtnStep234App'>
-              <BtnGoBack/> {/* mon btn confirm */}
-              <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou} /> 
+              <BtnGoBack setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4}/>
+              <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou} /> {/* mon btn confirm */} 
             </div>
           </div>
         </div>
@@ -143,7 +140,6 @@ function App() {
           </div>
         </div>
       }
-
 
     </div>
   );
