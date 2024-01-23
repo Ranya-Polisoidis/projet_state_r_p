@@ -122,6 +122,7 @@ function App() {
           </div>
           <div>
             <Step4 choix={choix} miniCard={miniCard} time={time} total={total}/>
+            {/* <Step4 choix={choix} step2={data.step2} time={time} total={total}/> */}
             <div className='divBtnStep234App'>
               <BtnGoBack setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4}/>
               <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou} /> {/* mon btn confirm */} 

@@ -12,11 +12,16 @@ function Step4(props) {
 
             <div>
                 <div>
-
                     <div>
                         <h6>{props.miniCard.title}</h6>
                         <p>{props.miniCard.timeframes[props.time].price}</p>
                     </div>
+                    {/* <div>
+                        <h6>{props.step2.title}</h6>
+                        <p>{props.step2.timeframes[props.time].price}</p>
+                    </div> */}
+
+
 
                     <div className='div2Step4'>
                         {props.choix.map((item, index) => (
@@ -27,7 +32,6 @@ function Step4(props) {
                         ))
                         }
                     </div>
-
                 </div>
             </div>
             <div>

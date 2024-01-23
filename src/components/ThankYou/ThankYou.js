@@ -5,10 +5,11 @@ import iconeThankYou from "../../assets/img/thankyou.svg"
 
 function ThankYou() {
     return (
-        <div>
-            <img src={iconeThankYou} alt="" />
+        // centrer parfaitement la zone
+        <div className='divThankYou'>
+            <img className='imgThankYou' src={iconeThankYou} alt="icone thank you" />
             <h1 className='h1ThankYou'>Thank You!</h1>
-            <p>Thank for confirming your ! We hope you have fun using our . If you ever need support, please feel free to email us at support@loremgaming.com.</p>
+            <p className='pThankYou'>Thank for confirming your ! We hope you have fun using our . If you ever need support, please feel free to email us at support@loremgaming.com.</p>
         </div>
     )
 }
