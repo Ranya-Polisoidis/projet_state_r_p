@@ -3,9 +3,20 @@
 .divMiniCard{
     border: solid hsl(231, 11%, 63%) 1px;
     border-radius: 20px;
-    padding:15px;
-    padding-right:50px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left:15px;
+    padding-right:30px;
+    width: 85px;
 
+    cursor: pointer;
+    
+    /* transition ajouter pour le hover */
+    transition: border 0.3s ease;
+}
+
+.divMiniCard:hover{
+    border: 1px solid hsl(280, 65%, 48%);
 }
 
 .imgMiniCard{
@@ -23,5 +34,7 @@
     margin: 0;
     padding-bottom: 5px;
     color: hsl(231, 11%, 63%);
+    font-weight:bold;
+    letter-spacing: 0.5px;
 }
 

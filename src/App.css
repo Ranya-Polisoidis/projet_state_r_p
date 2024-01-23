@@ -20,10 +20,23 @@ body{
   border-radius: 20px;
 }
 
-.divBtnNextStepApp{
-
+/* Btn step 1 */
+.divBtnStep1App{
+  text-align: end;
+  padding-right: 80px; 
+  padding-left: 80px;
+  padding-top: 90px;
 }
 
+/* Btn step 2, 3 et 4 */
+.divBtnStep234App{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 80px; 
+  padding-left: 80px;
+  padding-top: 90px;
+}
 
 .couleur{
 color: hsl(213, 96%, 18%);

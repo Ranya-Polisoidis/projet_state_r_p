@@ -45,6 +45,7 @@ function App() {
   return (
     <div className="App">
 
+
       { step1 == true &&
         <div className='div1AllApp'>
           <div>
@@ -54,7 +55,9 @@ function App() {
             <Step1/>
             {/* { step1 == true && */}
             {/* <BtnNextStep setStep1={setStep1} setStep2={setStep2}/>  */}
-            <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou}/> 
+            <div className='divBtnStep1App'>
+              <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou}/> 
+            </div>
             {/* <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} step={step}/>  */}
             {/* } */}
           </div>
@@ -69,9 +72,11 @@ function App() {
           <div>
             <Step2 data={data}/>
             {/* { step1 == true && */}
-            <BtnGoBack/>
-            {/* <BtnNextStep setStep2={setStep2} setStep3={setStep3}/>  */}
-            <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou}/> 
+            <div className='divBtnStep234App'>
+              <BtnGoBack/>
+              {/* <BtnNextStep setStep2={setStep2} setStep3={setStep3}/>  */}
+              <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou}/> 
+            </div>
             {/* } */}
           </div>
         </div>
@@ -84,8 +89,10 @@ function App() {
           </div>
           <div>
             <Step3/>
-            <BtnGoBack/>
-            <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou}/> 
+            <div className='divBtnStep234App'>
+              <BtnGoBack/>
+              <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou}/> 
+            </div>
           </div>
         </div>
       }
@@ -97,8 +104,10 @@ function App() {
           </div>
           <div>
             <Step4/>
-            <BtnGoBack/>
-            <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou}/> 
+            <div className='divBtnStep234App'>
+              <BtnGoBack/> {/* mon btn confirm */}
+              <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou}/> 
+            </div>
           </div>
         </div>
       }
@@ -113,34 +122,6 @@ function App() {
           </div>
         </div>
       }
-
-
-      
-
-
-
-
-
-        {/* <div className='divBtnNextStepApp'>
-          <BtnNextStep/> 
-
-
-        {/* mettre mes step 3 et 4 mais une seul fois le sideBar */}
-      {/* </div> */}
-
-
-
-
-
-
-
-      {/* <Step2/>
-      <Step3/>
-      <Step4/>
-      <ThankYou/> */}
-
-      {/* <BtnGoBack/>
-      <BtnNextStep/> */}
 
 
     </div>

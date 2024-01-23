@@ -12,11 +12,11 @@ function Step1() {
                 </div>
                 <div className='div2AllStep1'>
                     <h5 className='h5AllStep1'>Your name is :<span></span></h5>
-                    <input className='inputAllStep1' type="text" placeholder='Vingt-Six'/>
+                    <input className='inputAllStep1 input1et2Step1' type="text" placeholder='Vingt-Six'/>
                 </div>
                 <div className='div2AllStep1'>
                     <h5 className='h5AllStep1'>Your email is :<span></span></h5>
-                    <input className='inputAllStep1' type="text" placeholder='vingt_six@email.com'/>
+                    <input className='inputAllStep1 input1et2Step1' type="text" placeholder='vingt_six@email.com'/>
                 </div>
                 <div className='div2AllStep1'>
                     <h5 className='h5AllStep1'>Your phone number is :<span></span></h5>

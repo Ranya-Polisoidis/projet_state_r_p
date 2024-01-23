@@ -3,7 +3,7 @@ import "./BtnGoBack.css"
 
 function BtnGoBack() {
     return (
-        <div className='divBtnBtnGoBack'>
+        <div>
             <button className='BtnBtnGoBack'>Go Back</button>
         </div>
     )

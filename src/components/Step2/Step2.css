@@ -1,15 +1,11 @@
 
 
-
-
-
 .divAllStep2{
-    /* background-color: red; */
     padding-right: 80px; 
     padding-left: 80px;
     padding-top: 50px;
 
-    padding-bottom: 25px;  
+    width: 420px;
 }
 
 .div1AllStep2{
@@ -19,6 +15,7 @@
 .h1AllStep2{
     margin: 0;
     color: hsl(213, 96%, 18%);
+    padding-bottom: 10px;
 }
 
 .pAllStep2{
@@ -29,6 +26,9 @@
 
 .div2Step2{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
 }
 
 /* Mon bouton Month -- Year */
@@ -72,16 +72,18 @@
     margin-left: 5px;
     margin-top: 5px;
     margin-bottom:5px;
+
+    cursor: pointer;
 }
 
-.PMonth{
+.pMonth{
     color:hsl(213, 96%, 18%);
-    margin-right: 10px;
+    margin-right: 65px;
 }
 
 .pYear{
     color:rgb(142, 144, 150);
-    margin-left: 10px;
+    margin-left: 65px;
 }
 
 /* Affichage conditionnel */
@@ -98,13 +100,15 @@
     margin-left: 5px;
     margin-top: 5px;
     margin-bottom:5px;
+
+    cursor: pointer;
 }
 .effetPMonth{
     color:rgb(142, 144, 150);
-    margin-right: 10px;
+    margin-right: 65px;
 }
 .effetPYear{
     color:hsl(213, 96%, 18%);
-    margin-left: 10px;
+    margin-left: 65px;
 }
 

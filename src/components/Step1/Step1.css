@@ -1,13 +1,11 @@
 
 
-
 .divAllStep1{
-    /* background-color: red; */
     padding-right: 80px; 
     padding-left: 80px;
     padding-top: 50px;
 
-    padding-bottom: 25px;  
+    width: 420px;
 }
 
 .div1AllStep1{
@@ -17,6 +15,7 @@
 .h1AllStep1{
     margin: 0;
     color: hsl(213, 96%, 18%);
+    padding-bottom: 10px;
 }
 
 .pAllStep1{
@@ -24,7 +23,6 @@
     padding-bottom: 45px;
     color:hsl(231, 11%, 63%);
 }
-
 
 .div2AllStep1{
 
@@ -44,13 +42,16 @@
     border-radius: 10px;
     border: 1px grey solid;
     padding-left: 15px;
-    margin-bottom: 20px;
-    outline-color: hsl(271, 39%, 59%);
+    outline: hsl(280, 57%, 76%);
 }
 
 .inputAllStep1::placeholder {
     /* font-size: 15px;  */
     /* padding-left: 15px; */
+}
+
+.input1et2Step1{
+    margin-bottom: 20px;
 }
 
 /* supp la bordure authomatique quand on clique sur l'input */
