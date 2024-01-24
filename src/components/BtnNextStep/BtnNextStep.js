@@ -17,8 +17,23 @@ function BtnNextStep(props) {
                 <button className='BtnBtnNextStep' onClick={()=> {props.setStep3(false);props.setStep4(true)}}>Next Step</button>
             }
             {/* + mon btn Confirm */}
-            { props.step4 == true &&
+            {/* de base il est présent 1 fois car j'avais 1 affichage à l'étape 4 */}
+            {/* { props.step4 == true &&
                 <button className='BtnBtnNextStep' onClick={()=> {props.setStep4(false);props.setThankYou(true)}}>Confirm</button>
+            } */}
+            {/* MAIS comme à l'étape 4 j'ai 2 affichage (au 2ème je veux qu'il ne puisse pas confirmer (car à l'occurence il avais pas fais un choix à l'étape 2 et 3)) */}
+            { props.step4 == true &&
+                <div>
+                    { props.miniCard !== "" &&
+                        <div>
+                            <button className='BtnBtnNextStep' onClick={()=> {props.setStep4(false);props.setThankYou(true)}}>Confirm</button>
+                        </div>
+                    }
+                    { props.miniCard === "" &&
+                        <div>
+                        </div>
+                    }
+                </div>
             }
         </div>
     )

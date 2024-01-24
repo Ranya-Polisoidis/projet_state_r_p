@@ -8,7 +8,7 @@ import MiniCard from '../MiniCard/MiniCard'
 
 function Step2(props) {
 
-    const [btnMonthlyYearly, setBtnMonthlyYearly] = useState(true)
+    // const [btnMonthlyYearly, setBtnMonthlyYearly] = useState(true)
 
     return (
         <div className='divAllStep2'>
@@ -28,21 +28,21 @@ function Step2(props) {
 
             {/* Bouton Month & Year */}
             <div className='div1Step2'>
-                {btnMonthlyYearly == true &&
+                {props.btnMonthlyYearly == true &&
                     <div className="divBtnMonthYear">
                         <p className="pMonth">Monthly1</p>
                         <div className="divCercle btnMonthYear">
-                            <div className="cercle" onClick={() => { setBtnMonthlyYearly(false); props.setTime("yearly") }} ></div>
+                            <div className="cercle" onClick={() => {props.setBtnMonthlyYearly(false); props.setTime("yearly") }} ></div>
                         </div>
                         <p className="pYear">Yearly1</p>
                     </div>
                 }
 
-                {btnMonthlyYearly == false &&
+                {props.btnMonthlyYearly == false &&
                     <div className="divBtnMonthYear">
                         <p className="effetPMonth">Monthly2</p>
                         <div class="divCercle btnMonthYear">
-                            <div className="effetCercle" onClick={() => { setBtnMonthlyYearly(true); props.setTime("monthly") }}></div>
+                            <div className="effetCercle" onClick={() => {props.setBtnMonthlyYearly(true); props.setTime("monthly") }}></div>
                         </div>
                         <p className="effetPYear">Yearly2</p>
                     </div>

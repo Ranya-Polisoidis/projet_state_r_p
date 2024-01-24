@@ -16,7 +16,7 @@ function Step3(props) {
             <div>
                 {
                     props.data.map((item, index) => (
-                        <Input key={index} title={item.title} detail={item.detail} price={item.timeframes[props.time].price} time={props.time} input={props.input} setInput={props.setInput} item={item} fctAjoutChoix={props.fctAjoutChoix}/>
+                        <Input key={index} title={item.title} detail={item.detail} price={item.timeframes[props.time].price} time={props.time} input={props.input} setInput={props.setInput} item={item} fctAjoutChoix={props.fctAjoutChoix} choix={props.choix}/>
                     ))
                 }
             </div>

@@ -10,12 +10,12 @@ function Input(props) {
     return (
 
         // <div className='divInput'>
-        <div className={divInput==true ? "effetDivInput" : "divInput"} onClick={()=>setDivInput(true)}>
+        <div className={props.choix.includes(props.item)  ? "effetDivInput" : "divInput"} onClick={() =>{props.fctAjoutChoix(props.item)}}>
 
         {/* Si j'aurais dû choisir qu'un éléments (comme pour le miniCard) MAIS DANS le effetDivInput (je dois mettre le css de divInput en + pour que mon effect à aussi (le css de base et qu'il ne le perde pas)) */}
         {/* <div className={props.input == props.item ? "effetDivInput" : "divInput"} onClick={()=>props.setInput(props.item)} > */}
             <div>
-                <input className='inputInput' type="checkbox" name="" id="" onClick={() =>props.fctAjoutChoix(props.item)} />
+                <input className='inputInput' type="checkbox" checked={props.choix.includes(props.item) ? true : false} name="" id=""  />
             </div>
             <div className='div1Input'>
                 <h4 className='h4Input'>{props.title}</h4>

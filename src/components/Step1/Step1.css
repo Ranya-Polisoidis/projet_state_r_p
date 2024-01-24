@@ -35,17 +35,9 @@
     border-radius: 10px;
     border: 1px grey solid;
     padding-left: 15px;
-    outline: hsl(280, 57%, 76%);
-}
-
-.inputAllStep1::placeholder {
-    /* font-size: 15px;  */
-    /* padding-left: 15px; */
+    outline: hsl(280, 57%, 76%); 
 }
 
 .input1et2Step1{
     margin-bottom: 20px;
 }
-
-/* supp la bordure authomatique quand on clique sur l'input */
-/* outline: none; */
