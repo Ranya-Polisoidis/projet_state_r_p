@@ -30,21 +30,21 @@ function Step2(props) {
             <div className='div1Step2'>
                 {props.btnMonthlyYearly == true &&
                     <div className="divBtnMonthYear">
-                        <p className="pMonth">Monthly1</p>
+                        <p className="pMonth">Monthly</p>
                         <div className="divCercle btnMonthYear">
-                            <div className="cercle" onClick={() => {props.setBtnMonthlyYearly(false); props.setTime("yearly") }} ></div>
+                            <div className="cercle" onClick={() => {props.setBtnMonthlyYearly(false); props.setTime("yearly")}}></div>
                         </div>
-                        <p className="pYear">Yearly1</p>
+                        <p className="pYear">Yearly</p>
                     </div>
                 }
 
                 {props.btnMonthlyYearly == false &&
                     <div className="divBtnMonthYear">
-                        <p className="effetPMonth">Monthly2</p>
+                        <p className="effetPMonth">Monthly</p>
                         <div class="divCercle btnMonthYear">
                             <div className="effetCercle" onClick={() => {props.setBtnMonthlyYearly(true); props.setTime("monthly") }}></div>
                         </div>
-                        <p className="effetPYear">Yearly2</p>
+                        <p className="effetPYear">Yearly</p>
                     </div>
                 }
             </div>

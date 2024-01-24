@@ -12,7 +12,6 @@ function Step3(props) {
                 <p className='pAllStep3'>Add-ons help enhance your gaming experience.</p>
             </div>
 
-            {/* <div className='div2Step3'> */}
             <div>
                 {
                     props.data.map((item, index) => (

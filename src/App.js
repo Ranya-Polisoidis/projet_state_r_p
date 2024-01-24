@@ -19,6 +19,7 @@ function App() {
   const [step3, setStep3] = useState(false)
   const [step4, setStep4] = useState(false)
   const [thankYou, setThankYou] = useState(false)
+  
   const [btnMonthlyYearly, setBtnMonthlyYearly] = useState(true)
 
   // -------------------------------------------------------
@@ -131,7 +132,7 @@ function App() {
             <SideBar step1={step1} step2={step2} step3={step3} step4={step4}/>
           </div>
           <div>
-            <Step4 choix={choix} miniCard={miniCard} time={time} total={total}/>
+            <Step4 choix={choix} miniCard={miniCard} time={time} total={total} setStep4={setStep4} setStep2={setStep2}/>
             <div className='divBtnStep234App'>
               <BtnGoBack setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} miniCard={miniCard}/>
               <BtnNextStep setStep1={setStep1} setStep2={setStep2} setStep3={setStep3} setStep4={setStep4} setThankYou={setThankYou} step1={step1} step2={step2} step3={step3} step4={step4} thankYou={thankYou} miniCard={miniCard}/> {/* mon btn confirm */} 

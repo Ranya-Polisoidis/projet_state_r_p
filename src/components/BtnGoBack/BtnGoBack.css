@@ -1,6 +1,6 @@
 
 
-.BtnBtnGoBack{
+.btnBtnGoBack{
     background-color: hsl(0, 0%, 100%);
     
     color: hsl(213, 96%, 18%);
@@ -15,6 +15,6 @@
 }
 
 
-.BtnBtnGoBackCibler{
+.btnBtnGoBackCibler{
     color:rgba(249, 0, 0, 0.902);
 }

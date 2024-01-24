@@ -1,11 +1,19 @@
 
 
-.divAllStep4{
+.divThankYou{
     text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+
+    padding-right: 80px; 
+    padding-left: 80px;
+    padding-top: 170px;
+
+    width: 420px;
 }
+
 
 .imgThankYou{
     height: 70px;

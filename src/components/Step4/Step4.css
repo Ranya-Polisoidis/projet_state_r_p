@@ -20,13 +20,85 @@
     color:hsl(231, 11%, 63%);
 }
 
-/* .div2Step4{
+.div1Step4{
+    background-color: red;
+    border-radius: 10px;
+    background-color:  hsl(217, 100%, 97%);
+    padding:20px;
+}
+
+.div2Step4{
     display: flex;
     align-items: center;
     justify-content: space-between;
-} */
+}
 
+/* */
+.h4Step4{
+    margin: 0;
+    color: hsl(213, 96%, 18%);
+}
 
+.p1Step4{
+    margin: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    color:hsl(231, 11%, 63%);
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.p2Step4{
+    margin: 0;
+    padding-bottom: 5px;
+    color: hsl(213, 96%, 18%);
+    font-weight:bold;
+    letter-spacing: 0.5px;
+}
+
+.divVide {
+    border-top: 1px solid hsl(231, 11%, 63%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.divFlexAllStep4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div3Step4{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.p3et5Step4{
+    margin: 0;
+    color:hsl(231, 11%, 63%);
+}
+
+.p4Step4{
+    margin: 0;
+    padding-bottom: 5px;
+    color: hsl(213, 96%, 18%);
+    font-weight:bold;
+    letter-spacing: 0.5px;
+}
+
+.div4Step4{
+    padding:20px;
+    padding-bottom:0px;
+}
+
+.h3Step4{
+    margin: 0;
+    color:hsl(255, 80%, 52%);
+    letter-spacing: 0.5px;
+}
+
+/* affichage condi. */
 .divStep4{
     padding-right: 80px; 
     padding-left: 80px;
