@@ -1,7 +1,7 @@
 
 body{
   height: 100vh;
-  background-color: grey;
+  background-color: hsl(217, 100%, 97%);
 }
 
 .App{
@@ -51,7 +51,7 @@ color: hsl(206, 94%, 87%);
 color: hsl(354, 84%, 57%);
 color: hsl(231, 11%, 63%);
 color: hsl(229, 24%, 87%);
-/* color: hsl(217, 100%, 97%); utilsier */
+color: hsl(217, 100%, 97%); 
 color: hsl(231, 100%, 99%);
 color: hsl(0, 0%, 100%);
 }

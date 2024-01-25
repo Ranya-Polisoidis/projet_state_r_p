@@ -1,7 +1,7 @@
 
 
 /* + mon btn Confirm (le dernier) */
-.btnBtnNextStep{ 
+.btnBtnNextStepEtDernierConfirm{ 
     background-color: hsl(213, 96%, 18%);
 
     color: hsl(0, 0%, 100%);
@@ -15,7 +15,7 @@
     font-weight: bold;
 }
 
-.btnBtnNextStep:hover{
+.btnBtnNextStepEtDernierConfirm:hover{
     background-color: hsl(213, 96%, 27%);
 }
 

@@ -46,6 +46,9 @@
     color:hsl(231, 11%, 63%);
     font-size: 15px;
     padding-bottom: 10px;
+    &:hover{
+        color:hsl(231, 25%, 79%)
+    }
 }
 
 .p2Step4{

@@ -18,6 +18,7 @@
     margin: 0;
     padding-bottom: 45px;
     color:hsl(231, 11%, 63%);
+    /* font-weight: normal; */
 }
 
 
@@ -35,7 +36,7 @@
     border-radius: 10px;
     border: 1px grey solid;
     padding-left: 15px;
-    outline: hsl(280, 57%, 76%); 
+    outline-color: hsl(280, 57%, 76%); 
 }
 
 .input1et2Step1{

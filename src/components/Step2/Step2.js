@@ -1,14 +1,9 @@
 import React from 'react'
 import "./Step2.css"
 
-import { useState } from 'react';
-
-
 import MiniCard from '../MiniCard/MiniCard'
 
 function Step2(props) {
-
-    // const [btnMonthlyYearly, setBtnMonthlyYearly] = useState(true)
 
     return (
         <div className='divAllStep2'>
@@ -28,17 +23,17 @@ function Step2(props) {
 
             {/* Bouton Month & Year */}
             <div className='div1Step2'>
-                {props.btnMonthlyYearly == true &&
+                {props.btnMonthlyYearly === true &&
                     <div className="divBtnMonthYear">
-                        <p className="pMonth">Monthly</p>
+                        <p className="pMonth">Monthly</p> 
                         <div className="divCercle btnMonthYear">
                             <div className="cercle" onClick={() => {props.setBtnMonthlyYearly(false); props.setTime("yearly")}}></div>
                         </div>
-                        <p className="pYear">Yearly</p>
+                        <p className="pYear">Yearly</p> 
                     </div>
                 }
 
-                {props.btnMonthlyYearly == false &&
+                {props.btnMonthlyYearly === false &&
                     <div className="divBtnMonthYear">
                         <p className="effetPMonth">Monthly</p>
                         <div class="divCercle btnMonthYear">
@@ -48,7 +43,6 @@ function Step2(props) {
                     </div>
                 }
             </div>
-
 
         </div>
     )

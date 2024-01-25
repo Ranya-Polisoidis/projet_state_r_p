@@ -5,7 +5,6 @@ import iconeThankYou from "../../assets/img/thankyou.svg"
 
 function ThankYou() {
     return (
-        // centrer parfaitement la zone
         
         <div className='divThankYou'>
             <img className='imgThankYou' src={iconeThankYou} alt="icone thank you" />
