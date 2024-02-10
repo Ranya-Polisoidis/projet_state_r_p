@@ -43,7 +43,8 @@ body{
   padding-top: 58px; 
 }
 
-.couleur{
+/* Palette de couleurs à utiliser */
+/* .couleur{
 color: hsl(213, 96%, 18%);
 color: hsl(243, 100%, 62%);
 color: hsl(228, 100%, 84%);
@@ -54,4 +55,4 @@ color: hsl(229, 24%, 87%);
 color: hsl(217, 100%, 97%); 
 color: hsl(231, 100%, 99%);
 color: hsl(0, 0%, 100%);
-}
+} */
