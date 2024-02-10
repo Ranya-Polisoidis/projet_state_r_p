@@ -9,7 +9,6 @@
     padding-left:15px;
     padding-right:15px;
 
-    /* width: 400px; */
 
     margin-bottom: 20px;
     display: flex;
@@ -18,7 +17,6 @@
     
     cursor: pointer;
     
-    /* transition ajouter pour le hover */
     transition: border 0.3s ease;
 }
 
@@ -66,8 +64,6 @@
     padding-bottom: 15px;
     padding-left:15px;
     padding-right:15px;
-
-    /* width: 400px; */
 
     margin-bottom: 20px;
     display: flex;

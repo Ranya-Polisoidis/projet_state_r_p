@@ -14,7 +14,6 @@ function Step1(props) {
             <div className='div2AllStep1'>
                 <h5 className='h5AllStep1'>Your name is : {props.name}</h5>
                 <input className='inputAllStep1 input1et2Step1' type="text" placeholder='Vingt-Six' value={props.name} onChange={(e) => props.setName(e.target.value)} />
-                {/* onChange: une fonction qui sera appelée chaque fois que le contenu du champ est modifié */}
             </div>
             <div className='div2AllStep1'>
                 <h5 className='h5AllStep1'>Your email is : {props.email}</h5>

@@ -6,7 +6,6 @@ function SideBar(props) {
         <div className='divSideBar'>
 
             <div className='divAllSideBar'>
-                {/* Pour le css div1AllSideBar est le css de base et effetDivStep est l'effet en + dont on rajoute aussi le css de base */}
                 <div className={props.step1 === true ? "effetDivStep" : "div1AllSideBar"}>
                     <h4 className={props.step1 === true ? "effectH4Step" : "h4AllSideBar"}>1</h4>
                 </div>

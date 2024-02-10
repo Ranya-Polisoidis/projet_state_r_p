@@ -3,20 +3,10 @@ import "./Step4.css"
 
 function Step4(props) {
 
-    // JE PENSE: quand j'ai un changement d'étât type ce projet (mois/anner) à la fin il faut faire le calcule car ici il serra a jours et calculera correctement si je mets dans App.js sa me fais pas bien mon caclule (car si je revient pour modifier mes infos il ferra une erreure)
-    // Sauf si par exemple j'avais un useState pour mois MAIS AUSSI QUE J'AURAIS FAIS UN POUR ANNER et la chaque éléments aura son useState et son contenue
-    // Ici directement !
-
-    // Méthode 1 
-    // Calculer 
-    let totalAutre = props.miniCard.timeframes[props.time].price // récupérer pour calculer pour le pack choisi
-    props.choix.forEach(element => { // calculer pour mes extras choisi (ou non)
+    let totalAutre = props.miniCard.timeframes[props.time].price 
+    props.choix.forEach(element => { 
         totalAutre += element.timeframes[props.time].price
-        // Qui veux dire pour rappel: totalAutre = totalAutre + element.timeframes[props.time].price;
     })
-
-    // Méthode 2 (en une ligne qui remplace le forEach)
-    // let totalAutre = props.miniCard.timeframes[props.time].price + props.choix.reduce((acc, item) => { return acc += item.timeframes[props.time].price }, 0)
 
     return (
         <div className='divAllStep4'>
@@ -32,7 +22,6 @@ function Step4(props) {
                     <div className='div2Step4'>
                         <div>
                             <h4 className='h4Step4'>{props.miniCard.title} {props.time === "monthly" ? "(Monthly)" : "(Yearly)"}</h4>
-                            {/* Pour revenir au Step2 */}
                             <p className='p1Step4' onClick={() => { props.setStep4(false); props.setStep2(true) }}>Change</p>
                         </div>
                         <div>
@@ -45,7 +34,6 @@ function Step4(props) {
                     </div>
 
                     <div>
-                        {/* Je rappel le tableau pour voir et le mettre visuellement lier à notre fct fctAjoutChoix (c'est un panier) */}
                         {props.choix.map((item, index) => (
                             <div key={index} className='divFlexAllStep4 div3Step4'>
                                 <p className='p3et5Step4'>{item.title}</p>
